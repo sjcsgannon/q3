@@ -1,5 +1,15 @@
+#wrapper{
+	max-width: 65%;
+	margin: 0 auto;
+}
+.s1{
+	background-color: grey;
+	padding: 10px;
+	border: 5px solid black;
+	margin: 50px;
+}
 img{
-	border: dashed;
+	border: solid;
 	width: 350px
 }
 h1{
@@ -11,7 +21,15 @@ p{
 }
 body{
 	background-color: grey;
-	text-align: center, right;
-	box-shadow: 200px
-	font weight: bold;
+	text-align: center;
+	font-weight: : bold;
+}
+a{
+	color: green;
+}
+a:hover {
+  color: blue;
+}
+body{
+	background-color: maroon;
 }
