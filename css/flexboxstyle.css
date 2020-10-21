@@ -1,0 +1,88 @@
+#wrapper{
+  max-width: 90%;
+  margin: 0 auto;
+}
+h1{
+	font-size: 36pt;
+}
+.flex-container1{
+	display: flex;
+	background-color: black;
+}
+.box1{
+	background-color: green;
+	width: 80px;
+	padding: 20px;
+	text-align: center;
+	font-size: 24pt;
+	margin: 20px;
+}
+.box2{
+	background-color: pink;
+	width: 50px;
+	padding: 20px;
+	text-align: center;
+	font-size: 24pt;
+	margin: 20px;
+}
+.box3{
+	background-color: gray;
+	width: 50px;
+	padding: 20px;
+	text-align: center;
+	font-size: 24pt;
+	margin: 20px;
+}
+.flex-containerrowreverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.flex-containercolumn{
+  display: flex;
+  flex-direction: column;
+}
+.flex-containerjustifystart {
+  display: flex;
+  justify-content: flex-start;
+}
+.flex-containerjustifyend {
+  display: flex;
+  justify-content: flex-end;
+}
+.flex-containerjustifycenter {
+  display: flex;
+  justify-content: center;
+}
+.flex-containerspacearound {
+  display: flex;
+  justify-content: space-around;
+}
+.flex-containerspacebetween {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-containerspaceevenly {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-containeralignstart {
+  display: flex;
+  align-items: flex-start;
+  height: 300px;
+}
+.flex-containeralignend {
+  display: flex;
+  height: 300px;
+  align-items: flex-end;
+}
+.flex-containeralignstretch {
+  display: flex;
+  height: 300px;
+  align-items: stretch;
+}
+.flex-containeralignbaseline {
+  display: flex;
+  height: 300px;
+  align-items: baseline;
+}
